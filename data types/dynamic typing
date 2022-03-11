@@ -1,0 +1,6 @@
+a=8
+print(a)
+print(type(a))
+a=9.8997
+print(a)
+print(type(a))
