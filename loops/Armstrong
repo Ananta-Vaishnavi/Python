@@ -1,0 +1,12 @@
+num=input("Enter number ")
+dig=len(num)
+i=0
+arm=0
+while i!=dig:
+  arm+= (int (num[i])**dig)
+
+if arm==num:
+  print("Armstrong")
+else:
+  print("Not Armstrong")
+  
