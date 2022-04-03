@@ -1,3 +1,5 @@
+#To remove elements having value >=500 from list below 
+
 cart = [ 50,60,800,700,10]
 c=0
 for num in cart:
