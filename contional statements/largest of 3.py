@@ -6,4 +6,4 @@ if a>b and a>c:
 elif b>a and b>c:
  print('largest=',b)
 else :
-  print('largest=',b)
+  print('largest=',c)
