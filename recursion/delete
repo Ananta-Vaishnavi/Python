@@ -1,0 +1,58 @@
+#1.Write a Python program to sum all the items in a list.
+def sum_list(items):
+    return sum(items)
+print(sum_list([1,2,8]))
+
+#2.Write a Python program to get the largest number from a list.
+def max_num_in_list( list ):
+   return max(list)
+print(max_num_in_list([1, 2, 8, 0]))
+
+#3.Write a Python program to find the items starts with specific character from a given list.
+def test(lst, char):
+   for i in lst:
+     a=(i.startswith())
+     
+
+text = ["abcd", "abc", "bcd", "eea"]
+print("\nOriginal list:")
+print(text)
+char = "a"
+print("\nItems start with",char,"from the list:")
+print(test(text, char))
+
+#4.Write a Python program to create a 3X3 grid with numbers.[[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+def grid():
+  pass
+print(grid())
+
+#5.Program to find the index position of min and max elements of a list in Python
+def min_max():
+  
+print(min_max())
+
+#6.Write a Python program to clone or copy a list.
+def clone_li(l):
+  pass
+clone_li([10, 22, 44, 23, 4])
+
+#7.Implement removemax() function that removes the maximum value from a given list and return the list after deletion.
+def removemax(list):
+  pass
+removemax([12,67,34,89,23])
+
+#8.Program that creates a duplicate version of a list but with the elements stored in reverse order from the original
+def rev_order(list):
+  pass
+rev_order([2,3,4,5,6])
+
+#9. Program that removes all negative numbers from a list of values.
+def remove_neg(list):
+  pass
+remove_neg([2,-3,-4,5,6,-7])
+
+#10. Program that returns a string containing a sentence constructed from a list of words, with the individual words separated by a single blank space.
+def listtostring(words):
+  pass
+
+listtostring(["Python", "Programming", "Batch", "B24"])
