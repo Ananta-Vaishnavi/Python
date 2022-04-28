@@ -1,0 +1,7 @@
+l=[i for i in input().split()] 
+if len(l)-1>5:
+    del l[5]
+if len(l)-1>4:        
+    del l[4]
+del l[0]
+print(l)
