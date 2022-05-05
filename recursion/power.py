@@ -5,4 +5,4 @@ def power(a,b):
         return a*power(a,b-1)
 a=int(input())
 b=int(input())
-print(power(2,3))
+print(power(a,b))
