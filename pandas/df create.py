@@ -1,3 +1,4 @@
+# 4) Write a Pandas program to create and display a DataFrame from a specified
 import pandas as pd
 import numpy as np
 exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael',
