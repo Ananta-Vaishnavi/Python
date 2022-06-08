@@ -1,3 +1,4 @@
+#3) Write a Pandas program to add, subtract, multiple and divide two Pandas Series. 
 import pandas as pd
 a=pd.Series([1,4,6,4,6,3])
 b=pd.Series([10,7,9,8,6,5])
