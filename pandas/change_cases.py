@@ -1,3 +1,4 @@
+#8) Write a Pandas program to convert all the string values to upper, lower cases in a given pandas series. Also find the length of the string values.
 import pandas as pd
 import numpy as np
 s = pd.Series(['X', 'Y', 'Z', 'Aaba', 'Baca', np.nan, 'CABA', None, 'bird', 'horse', 'dog'])
