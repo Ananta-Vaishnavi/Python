@@ -1,3 +1,4 @@
+# 5) Write a Pandas program to change the name 'James' to 'Suresh' in name column of the
 import pandas as pd
 import numpy as np
 exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael',
