@@ -1,3 +1,4 @@
+#10) Write a Pandas program to swap the cases of a specified character column in a given DataFrame
 import pandas as pd
 df = pd.DataFrame({
     'company_code': ['Abcd','EFGF', 'zefsalf', 'sdfslew', 'zekfsdf'],
