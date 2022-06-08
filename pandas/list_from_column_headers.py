@@ -1,3 +1,4 @@
+# 7) Write a Pandas program to get list from DataFrame column headers.
 import pandas as pd
 import numpy as np
 exam_data  = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
