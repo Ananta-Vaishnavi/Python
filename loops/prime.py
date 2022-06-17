@@ -1,23 +1,15 @@
 from math import sqrt
 def PrimeNumber(n):
-    if n==1:
-        print('Neithe Prime nor a Composite number')
-        return
-    elif n%2==0:
-        print('Not a Prime Number')
-        return
-    a=0
+    if n==2 or n==3:
+        return True
+    
+    if n%2==0:
+        return False
     for i in range(3,int(sqrt(n))+1,2):
-        a=i
         if n%i==0:
-            break
-    if int(sqrt(n))%2==0 and a==int(sqrt(n))+1:
-        print('Prime Number')
-        return
-    elif int(sqrt(n))%2!=0 and a==int(sqrt(n)):
-        print('Prime Number')
-        return
+            return False
     else:
-        print('Not a Prime Number')
-        return
-PrimeNumber(i)
+        return True
+for i in range(1,10):
+    print(i)    
+    print(PrimeNumber(i))
